@@ -1,4 +1,14 @@
+body{
+    background-color: rgb(209, 184, 232);
+}
+
 p{
     font-family: serif;
+      color: black;
 }
+h1{
+    border-left: 0cap;
+    color: rgba(113, 36, 154, 0.775);
+}
+
 
