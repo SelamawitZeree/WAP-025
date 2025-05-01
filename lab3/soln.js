@@ -1,6 +1,7 @@
 //1, Implement code
 
   // a,
+"use strict"
 function computeSumOfSquares(arr) {
     return arr.map((element) => element * element) .reduce((sum, current) => sum + current, 0);
 }
