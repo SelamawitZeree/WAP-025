@@ -1,37 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 2: Basic HTML and CSS</title>
+    <title>Selamawit's Homework Page</title>
     <link rel="stylesheet" href="styleme.css">
 </head>
 <body>
-    <h1>Selamawit's Page</h1>
-    <p>Hi, I’m Selamawit Zere,
-         a programmer who enjoys creating simple,
-          meaningful experiences on the web. I’m passionate about 
-          clean design, thoughtful code, and using technology 
-          to make everyday life a little easier.
-    </p>
-    <p>My Classes This Quarter</p>
-    <ul>
+<div class="page">
+    <h1>Hey! I'm Selamawit Zere</h1>
+
+    <div class="about-me">
+        <p>I'm a programmer who enjoys creating simple, meaningful web experiences.
+            I love clean design and making technology helpful!</p>
+    </div>
+
+    <h2>My Current Classes</h2>
+    <ul class="classes">
         <li>CS390 - Fundamental Programming Practices</li>
         <li>CS401 - Modern Programming Practices</li>
         <li>CS472 - Web Application Practices</li>
-        <li>CS516 -	Cloud Computing</li>
+        <li>CS516 - Cloud Computing</li>
         <li>CS435 - Algorithms</li>
     </ul>
-    
+
+    <h2>My Favorite Movies</h2>
+    <ol class="favorites">
+        <li><a href="https://www.imdb.com/title/tt0120338/" target="_blank">Titanic (1997)</a></li>
+        <li><a href="https://www.imdb.com/title/tt1877830/" target="_blank">The Notebook (2004)</a></li>
+        <li><a href="https://www.imdb.com/title/tt4846340/" target="_blank">Hidden Figures (2016)</a></li>
+    </ol>
+
+    <h2>My Moods</h2>
+    <div class="moods">
+        <div>
+            <p>Happy:</p>
+            <img src="happymood.jpeg" alt="Happy mood - sunshine">
+        </div>
+        <div>
+            <p>Sad:</p>
+            <img src="sadmood.jpg" alt="Sad mood - rainy day">
+        </div>
+    </div>
+
+    <h2>About My Neighbor</h2>
+    <ul class="neighbors">
+        <li><strong>Gideon:</strong> Chill but gets things done.</li>
+    </ul>
+
     <p>
-    <a href="https://validator.w3.org/check?url=https://selamawitzeree.github.io/WAP-025/lab2/aboutme.html">
-        <img src="w3c-html5-logo.png" alt="Valid HTML"></a>
+        <a href="https://validator.w3.org/check?url=https://selamawitzeree.github.io/WAP-025/lab2/aboutme.html">
+            <img src="w3c-html5-logo.png" alt="Valid HTML"></a>
 
-   </p>
-   <p><a href="https://jigsaw.w3.org/css-validator/validator?uri=https://selamawitzeree.github.io/WAP-025/lab2/styleme.css">
-       <img class="cssImage" src="w3c-css-logo.png" alt="Valid CSS"></a>
-
-</p>
+    </p>
+    <p><a href="https://jigsaw.w3.org/css-validator/validator?uri=https://selamawitzeree.github.io/WAP-025/lab2/styleme.css">
+        <img class="cssImage" src="w3c-css-logo.png" alt="Valid CSS"></a>
+    </p>
+</div>
 </body>
 </html>
-
