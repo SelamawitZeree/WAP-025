@@ -4,25 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
-    <script>
-        'use strict'
-        let str = "Greetings, ";
-        let user = {
-            firstName: "John",
-            lastname: "Smith",
-            display: function () {
-                console.log(this);
-                console.log(str, this.firstName);
-                show("hi");
-            }
-        };
-        user.display();
-        function show(msg) {
-            console.log(msg + " " + this.lastname);
-        }
-        show.call(user, "hello");
-
-    </script>
+    <script src="codeCall.js"></script>
+    <script src="codeCall2.js"></script>
 </head>
 <body>
 

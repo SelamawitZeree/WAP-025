@@ -28,13 +28,11 @@ function printFibo(n, a, b) {
 //2. Destructuring assignment:
 
 "use strict";
-
 let user = { name: "John", years: 30 };
 let { name, years: age, isAdmin = false } = user;
 
 
 //3. Array and its methods, and Object literal assignment:
-
     function addBook(title, author, ID) {
     const exists = libraryBooks.some(book => book.ID === ID);
     if (exists) return null;
