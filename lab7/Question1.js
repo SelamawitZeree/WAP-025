@@ -20,9 +20,7 @@ Question.prototype.checkAnswer = function (answer) {
 function Quiz(questions, students) {
     // Map that holds questions example {q1: "q1 correct answer", q2: "q2 correct answer"}
     const questionsMap = {};
-    questions.forEach((q) => {
-        questionsMap[q.qid] = q.answer;
-    });
+    questions.forEach((q) => {questionsMap[q.qid] = q.answer;});
     this.questions = questionsMap;
     this.students = students;
 }
