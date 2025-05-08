@@ -23,7 +23,6 @@ function createStudent(firstName, lastName, grades) {
 const students = [
     createStudent('Emma', 'Watson', [85, 90, 88]),
     createStudent('Daniel', 'Radcliffe', [92, 87, 89]),
-    createStudent('Rupert', 'Grint', [82, 85, 90]),
     createStudent('Tom', 'Felton', [88, 91, 86])
 ];
 

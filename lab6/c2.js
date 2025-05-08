@@ -20,15 +20,13 @@ Student.prototype.computeAverage = function() {
 const students = [
     new Student('Sophia', 'Martinez', [92, 88, 95]),
     new Student('Liam', 'Chen', [85, 90, 87]),
-    new Student('Olivia', 'Kim', [91, 89, 93]),
     new Student('Noah', 'Patel', [84, 86, 88])
 ];
 
 // Calculate class average
 function getClassAverage(studentList) {
-    const total = studentList.reduce((sum, student) => {
-        return sum + student.computeAverage();
-    }, 0);
+    const total =
+        studentList.reduce((sum, student) => {return sum + student.computeAverage();}, 0);
     return total / studentList.length;
 }
 
